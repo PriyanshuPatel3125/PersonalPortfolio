@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Priyanshu Patel | Creative Developer Portfolio</title>
+
+  <!-- Google Fonts & FontAwesome -->
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+
+</head>
+
+<body>
+  <!-- Interactive Canvas Particle Core Background -->
+  <canvas id="particle-canvas"
+    style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -2; pointer-events: none; opacity: 1.00;"></canvas>
+  <!-- Header -->
+  <header>
+    <div class="main-header">
+      <div class="logo">
+        <h1><a href="#">PP.</a></h1>
+      </div>
+      <div class="menu-list">
+        <ul class="menu">
+          <li><a href="#">About</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#Projects">Works</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="btn-hire">
+        <div class="mode">
+          <i class="fa-solid fa-sun toggle-icon"></i>
+        </div>
+        <button class="hire"><a href="#Contactbox">Hire Me <i class="fa-solid fa-paper-plane"></i></a></button>
+        <div class="bar" id="bar"><i class="fa-solid fa-bars"></i></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+
+    <div class="close-btn" id="closeBtn">
+      <i class="fa-solid fa-xmark x-menu"></i>
+    </div>
+
+    <ul>
+      <li><a href="#">About</a></li>
+      <li><a href="#Skills">Skills</a></li>
+      <li><a href="#Projects">Works</a></li>
+      <li><a href="#Contact">Contact</a></li>
+    </ul>
+    <button class="Mobile-hire"><a href="#Contactbox">Hire Me <i class="fa-solid fa-paper-plane"></i></a></button>
+  </div>
+
+  <!-- Hero-section -->
+  <section class="hero">
+    <div class="hero1">
+      <div class="work-badge">
+        <span class="dot"></span>
+        <span>Available For Work</span>
+      </div>
+      <div class="hero-title">
+        <h1 class="hero-title1">Hello, I'm</h1>
+        <h1 class="hero-title2">Priyanshu Patel</h1><br>
+        <pre class="hero-title3">
+          <div id="text">Creative </div><span id="element"></span></pre>
+        <p class="hero-pera">Frontend Devloper & DSA Learner passinate about creating beautiful,modren and responsive
+          web experiences.</p>
+      </div>
+      <div class="hero-buttons">
+        <button class="hero-btn1">Explore Works <i class="fa-solid fa-arrow-right"></i></button>
+        <button class="hero-btn2">Let's Talk <i class="fa-solid fa-message"></i></button>
+      </div>
+      <div class="hero-number">
+        <div class="yearExp-num">
+          <h1 class="y-num">4+</h1>
+          <p class="y-name">YEAR EXP</p>
+        </div>
+        <div class="yearExp-num">
+          <h1 class="y-num">30+</h1>
+          <p class="y-name">PROJECTS</p>
+        </div>
+        <div class="yearExp-num">
+          <h1 class="y-num">100%</h1>
+          <p class="y-name">SUCCESS</p>
+        </div>
+      </div>
+    </div>
+    <div class="hero2">
+      <div class="hero-img"></div>
+      <div class="orbit1">
+        <div class="icon1 html1"><i class="fa-brands fa-html5"></i></div>
+        <div class="icon1 css1"><i class="fa-brands fa-css3-alt"></i></div>
+        <div class="icon1 node1"><i class="fa-brands fa-node-js"></i></div>
+        <div class="icon1 js1"><img src="img/js.png" alt="js"></div>
+      </div>
+
+      <div class="orbit2">
+        <div class="icon2 html2"><i class="fa-brands fa-react"></i></div>
+        <div class="icon2 css2"><i class="fa-brands fa-angular"></i></div>
+        <div class="icon2 js2"><i class="fa-brands fa-npm"></i></div>
+        <div class="icon2 node2"><img src="img/Python-logo.png" alt="python"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills" id="Skills">
+    <div class="main-skiils">
+      <div class="skiils-heading">
+        <p class="skills-pera">MY EXPERTISE</p><br>
+        <h1 class="skills-heading">Superpowers & Toolkit</h1><br>
+        <div class="section-bar"></div>
+      </div>
+      <div class="skills-list">
+        <div class="s-list">
+          <div class="skills-icon html"><i class="fa-brands fa-html5"></i></div>
+          <div class="skills-name">
+            <h3>HTML5 & Semantics</h3>
+          </div>
+          <div class="skiils-per">
+            <p class="per">Expert</p>
+            <p>95%</p>
+          </div>
+          <div class="skill-bar-bg">
+            <div class="skill-bar-fill" style="width: 95%; background-color: #f97316;"></div>
+          </div>
+        </div>
+
+        <div class="s-list">
+          <div class="skills-icon css"><i class="fa-brands fa-css3-alt"></i></div>
+          <div class="skills-name">
+            <h3>CSS3 & Styling</h3>
+          </div>
+          <div class="skiils-per">
+            <p class="per">Advanced</p>
+            <p>90%</p>
+          </div>
+          <div class="skill-bar-bg">
+            <div class="skill-bar-fill" style="width: 95%; background-color: #3b82f6;"></div>
+          </div>
+        </div>
+
+        <div class="s-list">
+          <div class="skills-icon js"><i class="fa-brands fa-js"></i></div>
+          <div class="skills-name">
+            <h3>JavaScript (ES6+)</h3>
+          </div>
+          <div class="skiils-per">
+            <p class="per">Advanced</p>
+            <p>88%</p>
+          </div>
+          <div class="skill-bar-bg">
+            <div class="skill-bar-fill" style="width: 88%; background-color: #f59e0b;"></div>
+          </div>
+        </div>
+
+        <div class="s-list">
+          <div class="skills-icon react"><i class="fa-brands fa-react"></i></div>
+          <div class="skills-name">
+            <h3>React / NextJS</h3>
+          </div>
+          <div class="skiils-per">
+            <p class="per">Intermediate</p>
+            <p>80%</p>
+          </div>
+          <div class="skill-bar-bg">
+            <div class="skill-bar-fill" style="width: 80%; background-color: #06b6d4;"></div>
+          </div>
+        </div>
+
+        <div class="s-list">
+          <div class="skills-icon git"><i class="fa-brands fa-git-alt"></i></div>
+          <div class="skills-name">
+            <h3>Git / Versioning</h3>
+          </div>
+          <div class="skiils-per">
+            <p class="per">Advance</p>
+            <p>85%</p>
+          </div>
+          <div class="skill-bar-bg">
+            <div class="skill-bar-fill" style="width: 85%; background-color: #10b981;"></div>
+          </div>
+        </div>
+
+        <div class="s-list">
+          <div class="skills-icon cpp"><img src="img/cpp.png" alt="cpp"></div>
+          <div class="skills-name">
+            <h3>C and C++</h3>
+          </div>
+          <div class="skiils-per">
+            <p class="per">Advance</p>
+            <p>70%</p>
+          </div>
+          <div class="skill-bar-bg">
+            <div class="skill-bar-fill" style="width: 80%; background-color: #06b6d4;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- ProjectList -->
+  <section class="projects" id="Projects">
+    <div class="main-projects">
+      <div class="skiils-heading">
+        <p class="skills-pera">My Portfolio</p><br>
+        <h1 class="skills-heading">Recent Digital Solutions</h1><br>
+        <div class="section-bar"></div>
+      </div>
+      <div class="projects-list">
+
+        <!-- card -->
+        <div class="card"
+          onclick="openPopup('FinTech (Financial Technology)','Cuurency Exchange','This is a dynamic Currency Exchange web application built to provide real-time currency conversion rates. By integrating a live exchange rate API, the platform ensures users get instant, accurate, and up-to-date global financial data seamlessly.','img/currencyExchnage.png','https://github.com/PriyanshuPatel3125/currencyExechange','https://priyanshupatel3125.github.io/currencyExechange/')">
+          <div class="image-box">
+            <img src="img/currencyExchnage.png" alt="Priyanshu">
+            <div class="overlay">
+              <div class="eye"><i class="fa-solid fa-eye eyeIcon"></i></div>
+              <h3>VIEW DETAILS</h3>
+            </div>
+          </div>
+          <div class="content">
+            <div class="tag">FinTech (Financial Technology)</div>
+            <h2>Currency Exchange</h2>
+            <p>Create Currency Exchange Divice using API intigration and Responsive UI.</p>
+            <div class="bottom">
+              <span>HTML • CSS • JS</span>
+              <button class="arrow"><i class="fa-solid fa-arrow-up-right-from-square arrowIcon"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card"
+          onclick="openPopup('Information Retrieval Software','Weather App','This Weather App allows users to search and view the current temperature of any city instantly. It utilizes a live weather API to display accurate, real-time environmental data with a simple and interactive interface.','img/WhetherApp.png','https://github.com/PriyanshuPatel3125/WeatherApp','https://priyanshupatel3125.github.io/WeatherApp/')">
+          <div class="image-box">
+            <img src="img/WhetherApp.png" alt="Priyanshu">
+            <div class="overlay">
+              <div class="eye"><i class="fa-solid fa-eye eyeIcon"></i></div>
+              <h3>VIEW DETAILS</h3>
+            </div>
+          </div>
+          <div class="content">
+            <div class="tag">Information Retrieval Software</div>
+            <h2>Weather App</h2>
+            <p>Create Weather detection Divice using API intigration and Responsive UI.</p>
+            <div class="bottom">
+              <span>HTML • CSS • JS</span>
+              <button class="arrow"><i class="fa-solid fa-arrow-up-right-from-square arrowIcon"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card"
+          onclick="openPopup('Task Management Software','Todo App','This is a feature-rich Todo Application designed to help users efficiently manage their daily tasks and boost productivity. The app features complete CRUD functionality, allowing users to seamlessly add, edit, delete, and filter tasks based on their status.','img/Todo.png','https://github.com/PriyanshuPatel3125/TodoApp','https://priyanshupatel3125.github.io/TodoApp/')">
+          <div class="image-box">
+            <img src="img/Todo.png" alt="Priyanshu">
+            <div class="overlay">
+              <div class="eye"><i class="fa-solid fa-eye eyeIcon"></i></div>
+              <h3>VIEW DETAILS</h3>
+            </div>
+          </div>
+          <div class="content">
+            <div class="tag">Task Management Software</div>
+            <h2>Todo App</h2>
+            <p>A simple and user-friendly To-Do App built using HTML, CSS, and JavaScript that helps users manage daily
+              tasks efficiently.</p>
+            <div class="bottom">
+              <span>HTML • CSS • JS</span>
+              <button class="arrow"><i class="fa-solid fa-arrow-up-right-from-square arrowIcon"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card"
+          onclick="openPopup('FinTech (Financial Technology)','Expense-Tracker App','This Expense Tracker application helps users monitor their daily cash flow by categorizing income and expenses. It features a clean transaction history and built-in charts to provide a clear visual breakdown of spending habits.','img/ExpenseTraceker.png','https://github.com/PriyanshuPatel3125/ExpenseTracker_WithChart','https://priyanshupatel3125.github.io/ExpenseTracker_WithChart/')">
+          <div class="image-box">
+            <img src="img/ExpenseTraceker.png" alt="Priyanshu">
+            <div class="overlay">
+              <div class="eye"><i class="fa-solid fa-eye eyeIcon"></i></div>
+              <h3>VIEW DETAILS</h3>
+            </div>
+          </div>
+          <div class="content">
+            <div class="tag">FinTech (Financial Technology)</div>
+            <h2>Expense-Tracker App</h2>
+            <p>An Expense Tracker web application built using HTML, CSS, and JavaScript that helps users manage their
+              income and expenses efficiently.
+            </p>
+            <div class="bottom">
+              <span>HTML • CSS • JS</span>
+              <button class="arrow"><i class="fa-solid fa-arrow-up-right-from-square arrowIcon"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Popup -->
+        <div class="popup" id="popup">
+          <div class="popup-box">
+            <div class="xMark">
+              <button class="close" onclick="closePopup()"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="popup-all">
+              <div class="popup-img">
+                <img id="popupImg" src="" alt="">
+              </div>
+              <div class="popup-text">
+                <h4 id="tag"></h4>
+                <h2 id="title"></h2>
+                <div class="section-bar"></div>
+                <p id="desc"></p>
+                <div class="project-btns">
+                  <button class="github"><a id="a" href="">Github</a></button>
+                  <button class="liveDemo"><a id="live" href="">Live WebSite</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact-US -->
+  <section class="contactus" id="Contact">
+    <div class="main-contact">
+      <div class="skiils-heading">
+        <p class="skills-pera">GET IN TOUCH</p><br>
+        <h1 class="skills-heading">Let's Create Together</h1><br>
+        <div class="section-bar"></div>
+      </div>
+      <div class="contact-list">
+        <div class="contact-txt">
+          <p class="contect-pera">Ready to level up your product layout or build interactive client models? Pop your
+            information in the
+            active response form, and let's get the conversation rolling.</p>
+          <div class="mail-links">
+            <div class="contact-mail">
+              <div class="mail-icon">
+                <a href="mailto:example@gmail.com"><i class="fa-solid fa-envelope mail"></i></a>
+              </div>
+              <div class="mail-txt"><a href="mailto:example@gmail.com">priyanshupatel3125@gmail.com</a></div>
+            </div><br>
+            <div class="contact-mail">
+              <div class="mail-icon"><a href="https://github.com/PriyanshuPatel3125">
+                  <i class="fa-brands fa-github mail"></i></a>
+              </div>
+              <div class="mail-txt"><a href="https://github.com/PriyanshuPatel3125">Github.com/priyanshu</a></div>
+            </div><br>
+            <div class="contact-mail">
+              <div class="mail-icon">
+                <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin mail"></i></a>
+              </div>
+              <div class="mail-txt"><a href="https://www.linkedin.com/feed/">linkedin.com/in/priyanshu</a></div>
+            </div>
+          </div>
+        </div>
+        <div id="Contactbox">
+          <div class="contact-box">
+            <div class="contact-input1">
+              <div class="inputct1">
+                <div class="contact-name">FULL NAME</div>
+                <div class="input"><input type="text" placeholder="John Doe"></div>
+              </div>
+              <div class="inputct2">
+                <div class="contact-name">EMAIL ADDRESS</div>
+                <div class="input"><input type="text" placeholder="jane@example.com"></div>
+              </div>
+            </div>
+            <div class="contact-input2">
+              <div class="inputct3">
+                <div class="contact-name">SUNJECT</div>
+                <div class="input"><input type="text" placeholder="Project Collaboration idea"></div>
+              </div>
+            </div>
+            <div class="contact-input3">
+              <div class="inputct4">
+                <div class="contact-name">PROJECT BRIEF</div>
+                <textarea name="brief" id="brief" cols="80" placeholder="Tell me about your product..."></textarea>
+              </div>
+            </div>
+            <button class="btn-send">Send Message<i class="fa-solid fa-paper-plane"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Alert -->
+  <div class="alert-box" id="alert">
+    <h2>Success!</h2>
+    <p>Your email has been send successfully.</p>
+    <button onclick="closeAlert()" class="btnok">OK</button>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footerName">© 2026 Priyanshu Patel. All rights reserved.</div>
+    <div class="menu-list">
+      <ul class="menu">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Works</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ["FullStact Web-Devlopment", "DSA Learner", "Create Responsive and Modern UI."],
+      typeSpeed: 75,
+    });
+  </script>
+</body>
+
+</html>
